@@ -59,7 +59,7 @@ eratani-data-engineer
 
 ### 1. Jalankan Docker
 ```bash
-docker-compose up --build
+docker-compose up --build```
 ### 2. Akses Airflow UI
 http://localhost:8080
 Login default:
