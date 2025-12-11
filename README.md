@@ -61,10 +61,10 @@ eratani-data-engineer
 ```bash
 docker-compose up --build```
 ### 2. Akses Airflow UI
-http://localhost:8080
+```http://localhost:8080
 Login default:
 User: airflow
-Password: airflow
+Password: airflow```
 3. Aktifkan dan jalankan DAG
 Cari DAG bernama:
 eratani_pipeline
