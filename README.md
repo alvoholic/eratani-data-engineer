@@ -73,7 +73,7 @@ Password: airflow
 ```
 Cari DAG bernama:
 eratani_pipeline
-👉 Toggle ON
-👉 Klik ▶ Run untuk eksekusi pertama
+1. Toggle ON
+2. Klik ▶ Run untuk eksekusi pertama
 Pipeline otomatis berjalan setiap 06:00 UTC.
 ```
