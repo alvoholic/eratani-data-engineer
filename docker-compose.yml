@@ -30,10 +30,10 @@ services:
       - ./data:/opt/airflow/data
       - ./logs:/opt/airflow/logs
       - ./config:/opt/airflow/config
-    command: ["airflow", "db", "migrate"] # PERINTAH DB MIGRATE LANGSUNG
+    command: ["airflow", "db", "migrate"] # perintah db migrate langsung
 
-  # LAYANAN INI HANYA UNTUK MEMBUAT USER
-  airflow-users-init: # LAYANAN BARU UNTUK USER
+  # UNTUK MEMBUAT USER
+  airflow-users-init: # untuk user
     image: apache/airflow:2.7.1-python3.10
     #build: .
     depends_on:
