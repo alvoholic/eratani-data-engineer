@@ -24,20 +24,21 @@ Proyek ini membangun sebuah pipeline end-to-end menggunakan **Apache Airflow** u
 ---
 
 ## 📂 Struktur Project
+.
 ├── dags/
-│ └── eratani_pipeline.py # Airflow DAG
+│   └── eratani_pipeline.py        # Airflow DAG
 ├── dbt_project/
-│ ├── models/
-│ │ ├── staging/ # Staging models
-│ │ ├── fact/ # Fact models
-│ │ └── metrics/ # Metrics models
-│ └── dbt_project.yml
+│   ├── models/
+│   │   ├── staging/               # Staging models
+│   │   ├── fact/                  # Fact models
+│   │   └── metrics/               # Metrics models
+│   └── dbt_project.yml
 ├── data/
-│ └── agriculture_dataset.csv # Raw CSV input
-├── docker-compose.yml # Container orchestration
-├── requirements.txt # Python dependencies
-├── README.md # Documentation
-└── .gitignore # Ignored files
+│   └── agriculture_dataset.csv    # Raw CSV input
+├── docker-compose.yml             # Container orchestration
+├── requirements.txt               # Python dependencies
+├── README.md                      # Documentation
+└── .gitignore                     # Ignored files
 
 ---
 
