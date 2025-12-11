@@ -24,6 +24,7 @@ Proyek ini membangun sebuah pipeline end-to-end menggunakan **Apache Airflow** u
 ---
 
 ## 📂 Struktur Project
+```
 .
 ├── dags/
 │   └── eratani_pipeline.py        # Airflow DAG
@@ -39,6 +40,8 @@ Proyek ini membangun sebuah pipeline end-to-end menggunakan **Apache Airflow** u
 ├── requirements.txt               # Python dependencies
 ├── README.md                      # Documentation
 └── .gitignore                     # Ignored files
+```
+
 
 ---
 
