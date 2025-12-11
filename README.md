@@ -102,3 +102,12 @@ SELECT * FROM fact_farm_production;
 ```
 SELECT * FROM agriculture_metrics_daily;
 ```
+### 5. Melihat Tabel Hasil di pgAdmin
+```
+Tabel Hasil juga dapat dilihat di pgAdmin dengan konfigurasi:
+**Host name/address** : localhost
+**Port** : 5434
+**Database** : eratani
+**Username** : airflow
+**Password** : airflow
+```
