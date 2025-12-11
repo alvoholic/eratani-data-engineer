@@ -77,3 +77,16 @@ eratani_pipeline
 2. Klik ▶ Run untuk eksekusi pertama
 Pipeline otomatis berjalan setiap 06:00 UTC.
 ```
+### 4. Jalankan seluruh model dbt (staging + fact)
+```
+dbt run
+```
+### 4. Melihat Tabel Hasil Transformasi dbt
+##### 1. Masuk ke container PostgreSQL:
+```
+docker exec -it eratani_data_engineer-postgres-1 bash
+```
+##### 2. Login ke PostgreSQL:
+```
+psql -U airflow -d eratani
+```
