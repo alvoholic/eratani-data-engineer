@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.envrc
+.Python
+
+# Airflow
+logs/
+airflow_logs/
+airflow.db
+airflow-webserver.pid
+airflow-scheduler.pid
+
+# DBT
+dbt_packages/
+target/
+dbt_project/target/
+dbt_project/dbt_packages/
+
+# Database artifacts
+*.db
+*.sqlite
+*.sql.journal
+
+# CSV or data dumps (except raw /data)
+*.csv
+!data/agriculture_dataset.csv
+
+# Docker & container runtime
+*.pid
+*.seed
+docker-compose.override.yml
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor configs
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+
+# Logs
+*.log
+*.out
+*.err
+
+# Archives
+*.zip
+*.tar.gz
+*.tgz

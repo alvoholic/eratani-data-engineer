@@ -1,0 +1,11 @@
+Farm_ID,Crop_Type,Farm_Area(acres),Irrigation_Type,Fertilizer_Used(tons),Pesticide_Used(kg),Yield(tons),Soil_Type,Season,Water_Usage(cubic_meters)
+1,Padi,2.5,Sprinkler,0.5,10,4.2,Clay,Rainy,320
+2,Jagung,3.0,Flood,0.6,12,5.0,Loam,Dry,400
+3,Padi,1.8,Drip,0.4,8,3.5,Clay,Rainy,280
+4,Kedelai,2.2,Flood,0.3,6,2.8,Sandy,Dry,260
+5,Padi,3.2,Sprinkler,0.7,11,5.4,Clay,Rainy,350
+6,Jagung,2.0,Drip,0.5,9,4.1,Loam,Dry,300
+7,Kedelai,2.8,Flood,0.4,7,3.0,Sandy,Dry,270
+8,Padi,1.5,Sprinkler,0.3,5,2.6,Clay,Rainy,240
+9,Jagung,3.5,Drip,0.6,13,5.2,Loam,Dry,380
+10,Kedelai,2.4,Flood,0.5,8,3.1,Sandy,Dry,290

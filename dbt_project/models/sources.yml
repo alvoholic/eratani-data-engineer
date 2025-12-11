@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: public # Nama logis untuk sumber data ini
+    schema: public       # Schema tempat tabel berada (default PostgreSQL)
+    tables:
+      - name: stg_agriculture_raw # Nama tabel raw yang diisi oleh Airflow
