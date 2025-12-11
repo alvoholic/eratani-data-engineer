@@ -81,12 +81,24 @@ Pipeline otomatis berjalan setiap 06:00 UTC.
 ```
 dbt run
 ```
-### 4. Melihat Tabel Hasil Transformasi dbt
-##### 1. Masuk ke container PostgreSQL:
+### 5. Melihat Tabel Hasil Transformasi dbt
+##### 1. Masuk ke container PostgreSQL
 ```
 docker exec -it eratani_data_engineer-postgres-1 bash
 ```
-##### 2. Login ke PostgreSQL:
+##### 2. Login ke PostgreSQL
 ```
 psql -U airflow -d eratani
+```
+##### 3. Lihat tabel staging
+```
+SELECT * FROM stg_agriculture;
+```
+##### 4. Lihat tabel fact
+```
+SELECT * FROM fact_farm_production;
+```
+##### 5. Lihat tabel metrics
+```
+SELECT * FROM agriculture_metrics_daily;
 ```
