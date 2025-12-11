@@ -64,7 +64,7 @@ docker-compose up --build
 ```
 ### 2. Akses Airflow UI
 ```
-http://localhost:8080
+http://localhost:8081 # karena port 8080 bentrok diubah ke 8081
 Login default:
 User: airflow
 Password: airflow
