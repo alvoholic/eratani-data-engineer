@@ -11,8 +11,8 @@ seed-paths: ["seeds"]
 macro-paths: ["macros"]
 snapshot-paths: ["snapshots"]
 
-target-path: "target"       # directory for compiled SQL
-clean-targets:              # files removed by `dbt clean`
+target-path: "target"       # directory untuk compiled SQL
+clean-targets:              # files removed oleh `dbt clean`
   - "target"
   - "dbt_packages"
 
