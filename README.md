@@ -58,16 +58,22 @@ eratani-data-engineer
 ## Cara Menjalankan Project
 
 ### 1. Jalankan Docker
-```bash
-docker-compose up --build```
+```
+bash
+docker-compose up --build
+```
 ### 2. Akses Airflow UI
-```http://localhost:8080
+```
+http://localhost:8080
 Login default:
 User: airflow
-Password: airflow```
-3. Aktifkan dan jalankan DAG
+Password: airflow
+```
+### 3. Aktifkan dan jalankan DAG
+```
 Cari DAG bernama:
 eratani_pipeline
 👉 Toggle ON
 👉 Klik ▶ Run untuk eksekusi pertama
 Pipeline otomatis berjalan setiap 06:00 UTC.
+```
